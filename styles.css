@@ -249,3 +249,22 @@ ul {
     gap: 0.6rem;
   }
 }
+
+/* Added by assistant */
+main, .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  main, .container {
+    padding: 1rem;
+  }
+}
